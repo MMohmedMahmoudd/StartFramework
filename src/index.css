@@ -112,3 +112,6 @@ footer .container {
 section.Portfolio .container {
   background-color: #ffffff;
 }
+nav {
+  transition: padding-top 0.5s ease-in-out; /* Adjust the duration and easing as needed */
+}

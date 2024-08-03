@@ -1,11 +1,11 @@
 import {  Link, NavLink } from "react-router-dom"
 
-export default function Navbar() {
+export default function Navbar({ paddingTop }) {
   return (
     <>
 
 
-<nav className=" w-full py-2 fixed top-0 z-50">
+<nav style={{ paddingTop }} className=" w-full py-2 fixed top-0 z-50">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <Link to="Home" className="flex items-center space-x-3 rtl:space-x-reverse">
         <span className="self-center text-4xl uppercase font-bold dark:text-white">Start Framework </span>
