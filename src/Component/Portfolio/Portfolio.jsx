@@ -23,10 +23,10 @@ export default function Portfolio() {
 
   return (
     <>
-    <section className="Portfolio py-10 my-10 w-full flex justify-center items-center">
-    <div className="container my-10 py-10 w-full text-center">
+    <section className="Portfolio py-14  w-full flex justify-center items-center">
+    <div className="container  pt-14 w-full text-center">
         <div className="data w-3/4 mx-auto">
-        <h1 className="text-[#2c3e50] text-5xl max-sm:text-4xl uppercase font-bold mt-7">
+        <h1 className="text-[#2c3e50] text-5xl max-sm:text-4xl uppercase font-bold mt-28">
         portfolio component
         </h1>
         <div className="shapeParent w-full flex justify-center items-center">
