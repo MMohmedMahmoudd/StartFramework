@@ -10,12 +10,12 @@ import Portfolio from './Component/Portfolio/Portfolio'
 
 let x = createBrowserRouter([
   {path:'',element:<Layout/>,children:[
-    {path:'',element:<Home/>},
+    {path:'',element:<Notfound/>},
     {path:'Home',element:<Home/>},
     {path:'About',element:<About/>},
     {path:'Contact',element:<Contact/>},
     {path:'Portfolio',element:<Portfolio/>},
-    {path:'*',element:<Notfound/>}
+    {path:'*',element:<Home/>}
   ]}
 ])
 
