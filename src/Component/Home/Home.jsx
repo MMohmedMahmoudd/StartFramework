@@ -2,7 +2,7 @@ import logo from "../../assets/avataaars.svg"
 export default function Home() {
   return (
     <>
-    <div className="container my-16 flex flex-col gap-y-5 flex-wrap justify-center items-center">
+    <div className="container my-24 py-24 flex flex-col gap-y-5 flex-wrap justify-center items-center">
       <div className="image mt-12 justify-center items-center w-1/2 mx-auto my-auto">
       <img className="w-1/4 mx-auto " src={logo} />
       </div>
