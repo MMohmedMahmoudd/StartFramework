@@ -24,9 +24,9 @@ export default function Portfolio() {
   return (
     <>
     <section className="Portfolio pt-14 pb-3  w-full flex justify-center items-center">
-    <div className="container  pt-14 w-full text-center">
+    <div className="container pt-14 w-full text-center">
         <div className="data w-3/4 mx-auto">
-        <h1 className="text-[#2c3e50] text-5xl max-sm:text-4xl uppercase font-bold pt-28">
+        <h1 className="text-[#2c3e50] text-5xl max-sm:text-4xl uppercase font-bold pt-16">
         portfolio component
         </h1>
         <div className="shapeParent w-full flex justify-center items-center">
