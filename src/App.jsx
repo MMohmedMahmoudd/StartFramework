@@ -9,7 +9,7 @@ import Portfolio from './Component/Portfolio/Portfolio'
 
 let x = createBrowserRouter([
   {path:'',element:<Layout/>,children:[
-    {path:'',element:<Home/>},
+    {path:'*',element:<Home/>},
     {path:'Home',element:<Home/>},
     {path:'About',element:<About/>},
     {path:'Contact',element:<Contact/>},
